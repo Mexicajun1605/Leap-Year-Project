@@ -1,0 +1,15 @@
+
+puts "Enter the year you think might be a leap year, please."
+
+time = gets.chomp.to_i
+
+if time % 4 == 0
+    puts 'It is a leap year!'
+    elsif time % 100 != 0
+        puts 'Not a leap year!'
+    elsif time % 400 == 0
+        puts 'It is a leap year!'
+    else
+        puts 'Not a leap year!'
+
+    end
